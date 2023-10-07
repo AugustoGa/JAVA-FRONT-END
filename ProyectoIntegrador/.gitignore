@@ -2,3 +2,7 @@
 
 # dependencies
 /node_modules
+
+# packege
+/packege.json
+/packege.lock.json

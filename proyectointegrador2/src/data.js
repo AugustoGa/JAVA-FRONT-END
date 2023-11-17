@@ -1,0 +1,23 @@
+export const data = [
+    {
+        id:1,
+        img:"./",
+        name:"Estudiante",
+        offer:"80%",
+        price:40,
+    }
+    ,{
+        id:2,
+        img:"",
+        name:"Trainer",
+        offer:"50%",
+        price:100,
+    },
+    {
+        id:3,
+        img:"",
+        name:"Junior",
+        offer:"15%",
+        price:170,
+    }
+]

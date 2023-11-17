@@ -8,6 +8,9 @@ import { Link } from 'react-router-dom';
 
 
 export default function NavBar() {
+
+    const [expanded, setExpanded] = useState(false);
+
     return (
         <div class="col-12">
         
@@ -88,7 +91,7 @@ export default function NavBar() {
                     <p>Bs. As. llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
                     <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
                     <Nav.Link as={Link} to="/Compra">Comprar tickets</Nav.Link>
-                    <button type="button" class="btn btn-success">Comprar tickets</button>
+                    <button onClick={() => setExpanded(false)} as={Link} to="/Compra" type="button" class="btn btn-success">Comprar tickets</button>
                 </div>
                 </div>
                 </div>
